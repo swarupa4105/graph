@@ -59,3 +59,5 @@ x=[1.75,3.25]
 y=[2,2]
 plt.subplot(1,7,7)
 plt.plot(x,y,color='k')
+# to add title for all plots
+plt.suptitle("MY NAME")
