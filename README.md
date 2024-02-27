@@ -7,10 +7,16 @@ ax.set_facecolor("grey")
 x=[1,2,3,4,5]
 y=[10,2,8,4,6]
 plt.plot(x,y,color="k",ls="-.",marker="p",mfc='hotpink',mec="g")
+# color=line colour
+# marker=intersected point shape
+# mfc=marker colour
+# mec=marker edge colour
+# for grid colour
 plt.grid(color="b")
 plt.title("2-1 results",loc="left")
 plt.xlabel("year")
 plt.ylabel("percentage")
+# to exe x&Y labels
 plt.show()
 # multiple/subplots
 # plotting SWARUPA by multiple plots
