@@ -6,7 +6,8 @@ ax=plt.axes()
 ax.set_facecolor("grey")
 x=[1,2,3,4,5]
 y=[10,2,8,4,6]
-plt.plot(x,y,color="k",ls="-.",marker="p",mfc='hotpink',mec="g")
+plt.plot(x,y,color="k",ls="-.",marker="p",mfc='hotpink',mec="g",lw="10",ms="10")
+# lw=line width,ms=marker size
 # color=line colour
 # marker=intersected point shape
 # mfc=marker colour
@@ -66,4 +67,4 @@ y=[2,2]
 plt.subplot(1,7,7)
 plt.plot(x,y,color='k')
 # to add title for all plots
-plt.suptitle("MY NAME")
+plt.suptitle("MY NAME",c="m")
